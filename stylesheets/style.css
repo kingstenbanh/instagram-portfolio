@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*
 * Custom variables
- */
+*/
 /*
 * Override Bootstrap variables
- */
+*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, ../css/bootstrap/_normalize.scss */
 html {
@@ -8150,13 +8150,13 @@ button.close {
     display: none !important;
   }
 }
-/* line 27, ../css/style.scss */
+/* line 26, ../css/style.scss */
 * {
   position: relative;
   box-sizing: border-box;
 }
 
-/* line 32, ../css/style.scss */
+/* line 31, ../css/style.scss */
 body {
   color: #585c65;
   font-size: 16px;
@@ -8168,9 +8168,8 @@ header {
   height: 600px;
   overflow: hidden;
 }
-
-/* line 44, ../css/style.scss */
-img {
+/* line 42, ../css/style.scss */
+header img {
   position: fixed;
   top: 0px;
   left: 50%;
@@ -8178,92 +8177,81 @@ img {
   width: 1200px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 44, ../css/style.scss */
-  img {
+  /* line 42, ../css/style.scss */
+  header img {
     top: auto;
     left: auto;
     margin: 0;
     width: 100%;
   }
 }
-
-/* line 59, ../css/style.scss */
-.name {
+/* line 57, ../css/style.scss */
+header .name {
   font-size: 21px;
   position: absolute;
   top: 50px;
   left: 50px;
-  color: #fff;
+  color: #FFF;
 }
-
-/* line 67, ../css/style.scss */
-.titles {
+/* line 65, ../css/style.scss */
+header .titles {
   position: absolute;
   bottom: 40%;
   width: 100%;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  /* line 67, ../css/style.scss */
-  .titles {
+  /* line 65, ../css/style.scss */
+  header .titles {
     bottom: 50%;
   }
 }
-
-/* line 78, ../css/style.scss */
-h1, h2 {
+/* line 76, ../css/style.scss */
+header h1, header h2 {
   width: 100%;
-  color: #fff;
+  color: #FFF;
   margin: 0;
 }
-
-/* line 84, ../css/style.scss */
-h1 {
+/* line 82, ../css/style.scss */
+header h1 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.06em;
   margin-bottom: 10px;
 }
-/* line 91, ../css/style.scss */
-h1 span {
+/* line 89, ../css/style.scss */
+header h1 span {
   display: block;
 }
 @media screen and (min-width: 992px) {
-  /* line 91, ../css/style.scss */
-  h1 span {
+  /* line 89, ../css/style.scss */
+  header h1 span {
     display: inline;
   }
 }
-
-/* line 100, ../css/style.scss */
-h2 {
+/* line 98, ../css/style.scss */
+header h2 {
   font-size: 16px;
   width: 70%;
   margin: 0 auto;
 }
 @media screen and (min-width: 1200px) {
-  /* line 100, ../css/style.scss */
-  h2 {
+  /* line 98, ../css/style.scss */
+  header h2 {
     width: 100%;
     margin: 0;
   }
 }
-
-/* line 111, ../css/style.scss */
-.fancy-font {
-  font-family: "Kaushan Script", cursive;
-}
-
-/* line 115, ../css/style.scss */
-.social {
+/* line 109, ../css/style.scss */
+header .social {
   position: absolute;
   top: 55px;
   right: 50px;
   overflow: hidden;
 }
-/* line 121, ../css/style.scss */
-.social a {
+/* line 115, ../css/style.scss */
+header .social a {
   float: left;
   width: 26px;
   height: 26px;
@@ -8272,36 +8260,36 @@ h2 {
   background: url(../images/social-sprite.png) no-repeat;
   opacity: 0.8;
 }
-/* line 130, ../css/style.scss */
-.social a:hover {
+/* line 124, ../css/style.scss */
+header .social a:hover {
   opacity: 1.0;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-min-device-pixel-ratio: 2) {
-  /* line 121, ../css/style.scss */
-  .social a {
+  /* line 115, ../css/style.scss */
+  header .social a {
     background: url(../images/social-sprite@2x.png) no-repeat;
     background-size: 76px 26px;
   }
 }
-/* line 139, ../css/style.scss */
-.social a.facebook {
+/* line 133, ../css/style.scss */
+header .social a.facebook {
   background-position: 0px 0px;
 }
-/* line 143, ../css/style.scss */
-.social a.twitter {
+/* line 137, ../css/style.scss */
+header .social a.twitter {
   background-position: -25px 0px;
 }
-/* line 147, ../css/style.scss */
-.social a.instagram {
+/* line 141, ../css/style.scss */
+header .social a.instagram {
   background-position: -50px 0px;
 }
 
-/* line 153, ../css/style.scss */
+/* line 148, ../css/style.scss */
 .instagram-wrap {
   background: #eeeeee;
 }
 
-/* line 158, ../css/style.scss */
+/* line 153, ../css/style.scss */
 .instagram-content h3 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
@@ -8311,30 +8299,29 @@ h2 {
   padding: 50px 0;
   color: #bbbbbb;
 }
-
-/* line 169, ../css/style.scss */
-.photo-box {
+/* line 163, ../css/style.scss */
+.instagram-content .photo-box {
   margin: 0 0 30px 0;
 }
-/* line 173, ../css/style.scss */
-.photo-box .image-wrap img {
+/* line 167, ../css/style.scss */
+.instagram-content .photo-box .image-wrap img {
   width: 100%;
 }
-/* line 177, ../css/style.scss */
-.photo-box .image-wrap .likes {
-  positon: absolute;
+/* line 171, ../css/style.scss */
+.instagram-content .photo-box .image-wrap .likes {
+  position: absolute;
   bottom: 5px;
   left: 15px;
   padding: 5px;
   background: #000;
   background: rgba(0, 0, 0, 0.4);
-  color: #fff;
+  color: #FFF;
 }
-/* line 188, ../css/style.scss */
-.photo-box .description {
+/* line 181, ../css/style.scss */
+.instagram-content .photo-box .description {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  background: #fff;
+  background: #FFF;
   color: #9b9b9b;
   letter-spacing: 1px;
   padding: 15px;
@@ -8344,19 +8331,19 @@ h2 {
   text-overflow: ellipsis;
 }
 
-/* line 202, ../css/style.scss */
+/* line 197, ../css/style.scss */
 footer {
-  background: #fff;
+  background: #FFF;
   padding: 30px 0;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  /* line 202, ../css/style.scss */
+  /* line 197, ../css/style.scss */
   footer {
     padding: 100px 0;
   }
 }
-/* line 211, ../css/style.scss */
+/* line 206, ../css/style.scss */
 footer h4 {
   font-size: 36px;
   text-align: center;
@@ -8364,24 +8351,24 @@ footer h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 219, ../css/style.scss */
+/* line 214, ../css/style.scss */
 footer .about-text {
   padding: 0 30px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 219, ../css/style.scss */
+  /* line 214, ../css/style.scss */
   footer .about-text {
     width: 650px;
     margin: 0 auto;
   }
 }
-/* line 228, ../css/style.scss */
+/* line 223, ../css/style.scss */
 footer .contact-now-btn {
   display: inline-block;
   width: 70%;
   padding: 20px 50px;
   margin-top: 20px;
-  color: #fff;
+  color: #FFF;
   background: #585c65;
   font-size: 13px;
   letter-spacing: 1px;
@@ -8389,26 +8376,26 @@ footer .contact-now-btn {
   text-transform: uppercase;
 }
 @media screen and (min-width: 992px) {
-  /* line 228, ../css/style.scss */
+  /* line 223, ../css/style.scss */
   footer .contact-now-btn {
     width: 60%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 228, ../css/style.scss */
+  /* line 223, ../css/style.scss */
   footer .contact-now-btn {
     width: 20%;
     margin-top: 50px;
   }
 }
-/* line 249, ../css/style.scss */
+/* line 244, ../css/style.scss */
 footer .contact-now-btn:hover {
   background: #646873;
 }
 
-/* line 255, ../css/style.scss */
+/* line 250, ../css/style.scss */
 .footer-bottom {
-  background: #fff;
+  background: #FFF;
   padding: 10px 60px;
   border-top: 2px solid #eeeeee;
   letter-spacing: 2px;
@@ -8417,8 +8404,13 @@ footer .contact-now-btn:hover {
   text-transform: uppercase;
 }
 @media screen and (min-width: 992px) {
-  /* line 255, ../css/style.scss */
+  /* line 250, ../css/style.scss */
   .footer-bottom {
     padding: 40px 0;
   }
+}
+
+/* line 264, ../css/style.scss */
+.fancy-font {
+  font-family: "Kaushan Script", cursive;
 }

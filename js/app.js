@@ -2,7 +2,7 @@ $(function() {
 
   //Set up instafeed
   var feed = new Instafeed({
-      clientId: '90acb3463d72415c8a6c19db6791da12',
+      clientId: 'ceb2c2a3f09b41569a13a6053c3c9380',
       target: 'instafeed',
       get: 'tagged',
       tagName: 'photographyportfolio',
